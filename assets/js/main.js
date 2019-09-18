@@ -62,10 +62,10 @@
 					}
 
 				// Video check.
-					var video = $banner.data('video');
+					var video = $banner-mike.data('video');
 
 					if (video)
-						$window.on('load.banner', function() {
+						$window.on('load.banner-mike', function() {
 
 							// Disable banner load event (so it doesn't fire again).
 								$window.off('load.banner');
