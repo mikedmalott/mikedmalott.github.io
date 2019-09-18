@@ -98,7 +98,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Gotham Ultra Italic", sans-serif;
+		font-family: "Gotham", sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -187,23 +187,33 @@
 
 	h2 {
 		font-size: 1.75em;
-	}
+    font-family:"Gotham", sans-serif;
+    font-weight:700;"
+    }
 
 	h3 {
 		font-size: 1.35em;
-	}
+    font-family:"Gotham", sans-serif;
+    font-weight:700;"
+    }
 
 	h4 {
 		font-size: 1.1em;
-	}
+    font-family:"Gotham", sans-serif;
+    font-weight:700;"
+    }
 
 	h5 {
 		font-size: 0.9em;
-	}
+    font-family:"Gotham", sans-serif;
+    font-weight:700;"
+    }
 
 	h6 {
 		font-size: 0.7em;
-	}
+    font-family:"Gotham", sans-serif;
+    font-weight:700;"
+    }
 
 	sub {
 		font-size: 0.8em;
@@ -946,6 +956,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+    font-family: 'Gotham Ultra Italic', sans-serif;
 	}
 
 		input[type="submit"]:hover,
@@ -1171,7 +1182,7 @@
 		justify-content: center;
 		padding: 8em 4em 6em 4em;
 		min-height: 70vh;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/pic0.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
